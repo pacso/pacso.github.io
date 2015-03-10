@@ -16,6 +16,7 @@ title: #{title}
 date: #{Time.now}
 published: false
 categories:
+tags:
 ---
 
 EOS

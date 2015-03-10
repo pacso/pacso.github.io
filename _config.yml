@@ -8,6 +8,8 @@ url: "http://pacso.github.io" # the base hostname & protocol for your site
 twitter_username: jon_pascoe
 github_username:  pacso
 
+timezone: Europe/London
+
 # Build settings
 markdown: kramdown
 highlighter: pygments
