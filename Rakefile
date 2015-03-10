@@ -29,3 +29,4 @@ desc 'Run the Jekyll Server'
 task :serve do
   system "jekyll serve"
 end
+task s: :serve
