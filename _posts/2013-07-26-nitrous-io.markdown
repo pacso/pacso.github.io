@@ -2,7 +2,7 @@
 layout: post
 title: "Nitrous.IO"
 date: 2013-07-26 21:17
-permalink: blog/nitrous-io
+permalink: /blog/nitrous-io/
 comments: true
 categories:
 published: true

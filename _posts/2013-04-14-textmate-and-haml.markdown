@@ -3,7 +3,7 @@ layout: post
 title: "TextMate &amp; HAML"
 date: 2013-04-14 21:21
 comments: true
-permalink: blog/textmate-and-haml
+permalink: /blog/textmate-and-haml/
 categories:
 ---
 This seems to be a problem that never goes away. I really hope that somebody picks up development of TextMate soon and starts getting these niggles ironed out in TextMate 2. Yes I'm aware I could stop hoping and start doing something about that myself, but that's another story.

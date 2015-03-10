@@ -2,7 +2,7 @@
 layout: post
 title: Rebooting my blog
 date: 2015-03-10 01:15:30 +0000
-permalink: blog/rebooting-my-blog
+permalink: /blog/rebooting-my-blog/
 published: true
 categories:
 ---

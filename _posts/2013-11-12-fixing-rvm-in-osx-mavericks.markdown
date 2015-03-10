@@ -2,7 +2,7 @@
 layout: post
 title: "Fixing RVM in OS X Mavericks"
 date: 2013-11-12 23:28
-permalink: blog/fixing-rvm-in-osx-mavericks
+permalink: /blog/fixing-rvm-in-osx-mavericks/
 comments: true
 categories:
 ---

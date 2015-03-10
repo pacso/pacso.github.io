@@ -2,7 +2,7 @@
 layout: post
 title: "Mongo difficulties with constrained queries"
 date: 2013-10-05 18:56
-permalink: blog/mongo-difficulties-with-constrained-queries
+permalink: /blog/mongo-difficulties-with-constrained-queries/
 comments: true
 categories:
 - MongoDB

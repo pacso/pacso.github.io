@@ -2,7 +2,7 @@
 layout: post
 title: "Using Mongo in Multi-Threaded Applications"
 date: 2013-10-19 13:18
-permalink: blog/using-mongo-in-multi-threaded-applications
+permalink: /blog/using-mongo-in-multi-threaded-applications/
 comments: true
 categories:
 - MongoDB
