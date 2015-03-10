@@ -1,5 +1,6 @@
 require 'time'
 
+# Stolen from http://arjanvandergaag.nl/blog/creating-new-jekyll-posts.html
 desc 'create a new unpublished draft post'
 task :post do
   title = ENV['TITLE']
