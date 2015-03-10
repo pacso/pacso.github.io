@@ -149,7 +149,7 @@ repository_root
 
 There are 3 Ruby on Rails apps and an AngularJS app. The `json_api` app is just
 that, a JSON API written with Rails providing an interface to the data layer for
-and AngularJS app. The other two apps are basic Ruby on Rails apps providing
+an AngularJS app. The other two apps are basic Ruby on Rails apps providing
 services to customers.
 
 Each of these Rails apps has their own suite of RSpec tests and the AngularJS
@@ -240,7 +240,9 @@ The results were as follows:
 | 5           | 5m 46s   | 3m 21s      |
 
 As you can see, no perceivable increase in execution speed was experienced over
-five consecutive test runs. Can't say I wasn't a little disappointed at that.
+five consecutive test runs, especially when you consider that my previous data
+point was 3m 26s for SemaphoreCI before starting this load test. I can't say I
+wasn't a little disappointed at that result.
 
 Overall though, providing you take advantage of the ability to split your tests
 and run them in parallel, SemaphoreCI should be reliably faster.
