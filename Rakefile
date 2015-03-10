@@ -24,3 +24,8 @@ EOS
 
   # system ("#{ENV['EDITOR']} #{file}")
 end
+
+desc 'Run the Jekyll Server'
+task :serve do
+  system "jekyll serve"
+end
