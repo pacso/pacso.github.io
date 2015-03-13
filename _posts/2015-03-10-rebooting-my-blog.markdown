@@ -5,6 +5,8 @@ date: 2015-03-10 01:15:30 +0000
 permalink: /blog/rebooting-my-blog/
 published: true
 categories:
+redirect_from:
+- /blog/2013/04/02/hello-world/
 ---
 I used to have an [Octopress](http://octopress.org/) blog here which was very infrequently updated.
 Since I'm currently in the process of making some reasonably big changes in my

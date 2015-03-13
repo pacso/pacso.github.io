@@ -6,6 +6,8 @@ permalink: /blog/nitrous-io/
 comments: true
 categories:
 published: true
+redirect_from:
+- /blog/2013/07/26/nitrous-dot-io/
 ---
 A [friend of mine](http://fbflex.wordpress.com/) at work recently introduced me to [Nitrous.IO](https://www.nitrous.io/join/Ut9PVSzBCVk) and I must say it's a pretty awesome online dev tool. Its still in beta at the moment and new features are continually being added. Accounts are currently free and come with a small amount of "NO2", which are points you can spend on configuring the hardware available to the boxes you generate. You can earn more NO2 by spamming your friends and getting them to sign up with your referral code (see my previous link) :-).
 
