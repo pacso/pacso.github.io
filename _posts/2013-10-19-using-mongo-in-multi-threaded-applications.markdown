@@ -7,6 +7,8 @@ comments: true
 categories:
 - MongoDB
 - Grails
+redirect_from:
+- /blog/2013/10/19/using-mongo-in-multi-threaded-applications/
 ---
 We hit another Mongo related issue in our Grails app this week. For some unknown reason our application was hanging whilst testing a new multi-threaded feature we were building.
 

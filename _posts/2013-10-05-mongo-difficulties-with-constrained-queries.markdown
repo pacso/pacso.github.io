@@ -7,6 +7,8 @@ comments: true
 categories:
 - MongoDB
 - Grails
+redirect_from:
+- /blog/2013/10/05/mongo-difficulties-with-constrained-queries/
 ---
 We ran into this issue a little while ago at work. Basically, when you do a query with Mongo that has any constraints, Mongo will do two things. Firstly it will return the records which match your constraints, but more importantly it will only return the attributes from those records which are either mentioned in the constraints or requested specifically in your query.
 
