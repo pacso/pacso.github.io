@@ -2,7 +2,7 @@
 title: pacso
 email: jon.pascoe@me.com
 description: > # this means to ignore newlines until "baseurl:"
-  The personal dumping ground of Jon Pascoe. Mostly uninteresting drivel :-)
+  The ramblings of Jon Pascoe, mostly about software development for the web. :-)
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://pacso.github.io" # the base hostname & protocol for your site
 twitter_username: jon_pascoe
