@@ -7,6 +7,8 @@ published: true
 categories:
 redirect_from:
 - /blog/2013/04/02/hello-world/
+- /2015/03/10/rebooting-my-blog/
+- /2015/03/10/rebooting-my-blog.html
 ---
 I used to have an [Octopress](http://octopress.org/) blog here which was very infrequently updated.
 Since I'm currently in the process of making some reasonably big changes in my
