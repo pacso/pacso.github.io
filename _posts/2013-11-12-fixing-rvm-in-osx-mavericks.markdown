@@ -5,6 +5,8 @@ date: 2013-11-12 23:28
 permalink: /blog/fixing-rvm-in-osx-mavericks/
 comments: true
 categories:
+redirect_from:
+- /blog/2013/11/12/fixing-rvm-in-os-x-mavericks/
 ---
 I recently upgraded to OS X Mavericks on my home dev machine. I had a Rails project on the go and already had RVM set up with a set of gems installed and everything was working fine. Easiest OS X upgrade ever.
 
