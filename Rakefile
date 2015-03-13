@@ -4,7 +4,9 @@ require 'time'
 desc 'create a new unpublished draft post'
 task :post do
   title = ENV['TITLE']
-  slug = "#{Date.today}-#{title.downcase.gsub(/[^\w]+/, '-').gsub(/-$/, '')}"
+  slug_date = Date.today
+  slug_title = title.downcase.gsub(/[^\w]+/, '-').gsub(/-$/, '')
+  slug = "#{slug_date}-#{slug_title}"
 
   file = File.join(File.dirname(__FILE__), '_posts', slug + '.markdown')
 
@@ -14,6 +16,7 @@ task :post do
 layout: post
 title: #{title}
 date: #{Time.now}
+permalink: /blog/#{slug_title}/
 published: false
 categories:
 tags:
