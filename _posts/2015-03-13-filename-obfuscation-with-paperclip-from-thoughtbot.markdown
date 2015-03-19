@@ -4,6 +4,7 @@ title: Filename Obfuscation with Paperclip from Thoughtbot
 date: 2015-03-13 13:12:45 +0000
 permalink: /blog/filename-obfuscation-with-paperclip-from-thoughtbot/
 published: true
+comments: true
 categories:
 - Ruby on Rails
 tags:

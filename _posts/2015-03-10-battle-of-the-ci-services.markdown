@@ -3,6 +3,7 @@ layout: post
 title: Battle of the CI Services
 date: 2015-03-10 17:05:13 +0000
 permalink: /blog/battle-of-the-ci-services/
+comments: true
 categories:
 - Testing
 - Continuous Integration

@@ -4,6 +4,7 @@ title: Rebooting my blog
 date: 2015-03-10 01:15:30 +0000
 permalink: /blog/rebooting-my-blog/
 published: true
+comments: true
 categories:
 redirect_from:
 - /blog/2013/04/02/hello-world/

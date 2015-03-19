@@ -4,6 +4,7 @@ title: Setting up PGP in OS X Mail using GPGTools
 date: 2015-03-19 13:57:52 +0000
 permalink: /blog/setting-up-pgp-in-os-x-mail-using-gpgtools/
 published: true
+comments: true
 categories:
 - Encryption
 - Security
