@@ -23,7 +23,7 @@ It isn't hard to get yourself set up.
 
 ## Install GPGTools
 
-First of all, go to [this website](https://gpgtools.org/) and download the **GPG Suite Beta 5** - [https://gpgtools.org](https://gpgtools.org/)
+First of all, go to [this website](https://gpgtools.org/) and download the **GPG Suite Beta 6** - [https://gpgtools.org](https://gpgtools.org/)
 
 Next, of course, run the installer. This will install a number of things including a patch for the Mail app adding the PGP features.
 
