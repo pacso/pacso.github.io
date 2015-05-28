@@ -8,16 +8,16 @@ task :post do
   slug_title = title.downcase.gsub(/[^\w]+/, '-').gsub(/-$/, '')
   slug = "#{slug_date}-#{slug_title}"
 
-  file = File.join(File.dirname(__FILE__), '_posts', slug + '.markdown')
+  file = File.join(File.dirname(__FILE__), '_drafts', slug + '.markdown')
 
   File.open(file, 'w') do |f|
     f << <<-EOS.gsub(/^     /, '')
 ---
 layout: post
 title: #{title}
-date: #{Time.now}
+<!-- date: #{Time.now} -->
 permalink: /blog/#{slug_title}/
-published: false
+<!-- published: true -->
 categories:
 tags:
 ---
@@ -33,3 +33,9 @@ task :serve do
   system "jekyll serve"
 end
 task s: :serve
+
+desc 'Run the Jekyll Server in Drafts mode'
+task :devel do
+  system "jekyll serve --drafts"
+end
+task d: :devel
