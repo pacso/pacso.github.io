@@ -24,7 +24,7 @@ As with most things, when I started out using Paperclip I did not know what my n
 
 One key thing to note here is that the customers did not interact directly with the images stored on the server. At this point our config for Paperclip looked something like this:
 
-{% highlight ruby linenos %}
+{% highlight ruby %}
 class Attachment < ActiveRecord::Base
   belongs_to :order
   has_attached_file :document,
@@ -62,7 +62,7 @@ abfa04a42c94f58d17a509bccb2276d2f2e1718e23de5f0ff4bc93b4c922c2dbd23f81b31a7932fb
 
 Using this random string for our `hash_secret`, we can now modify our Paperclip setup so that it will randomise our filenames for us:
 
-{% highlight ruby linenos %}
+{% highlight ruby %}
 class Attachment < ActiveRecord::Base
   belongs_to :order
   has_attached_file :document,

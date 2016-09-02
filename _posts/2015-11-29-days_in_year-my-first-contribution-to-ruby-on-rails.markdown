@@ -17,7 +17,7 @@ The first thing I did was run a quick search against the Ruby documentation, and
 
 So, I opened up the `Time` class and monkey-patched it with a small method which did exactly this and merrily continued building my app:
 
-{% highlight ruby linenos %}
+{% highlight ruby %}
 class Time
   def days_in_year(year = current.year)
     days_in_month(2, year) + 337
