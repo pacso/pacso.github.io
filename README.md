@@ -1,2 +1,2 @@
 # pacso.github.io
-My *new* personal dumping ground
+My personal dumping ground. Visit https://pacso.github.io to read it.
