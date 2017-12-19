@@ -6,6 +6,9 @@ export default ({ children }) => (
     <h2>
     <Link to="/">pacso</Link>
     </h2>
+    <h3>
+      <Link to="/about/">About</Link>
+    </h3>
     {children()}
   </div>
 );
